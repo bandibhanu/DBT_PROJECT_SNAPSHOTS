@@ -1,0 +1,7 @@
+sources:
+  - name: snowflake_source
+    schema: dbt_staging
+    description: snowflake stagind layer
+    tables:
+      - name: orders
+        description: stores order database
